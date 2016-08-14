@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class MultiplyNumbers {
+ public static void main(String[] args) {
+  Scanner sn = new Scanner(System.in);
+         System.out.print("Please enter first number:");
+        double n1 = sn.nextDouble();               
+        System.out.print("Please enter second number:");
+        double n2 = sn.nextDouble();
+        double product = n1 * n2;
+        System.out.println(n1+"*"+n2+"="+product);
+    }
+}
